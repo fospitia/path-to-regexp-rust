@@ -44,8 +44,8 @@ pub struct Token {
 
 #[derive(Debug)]
 pub struct Match {
-    name: String,
-    value: String
+    pub name: String,
+    pub value: String
 }
 
 #[derive(Debug, Clone)]
