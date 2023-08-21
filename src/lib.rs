@@ -339,7 +339,7 @@ pub fn match_str (text: &str, regexp: FancyRegex, containers: Vec<Container>) ->
 
     if let Some(caps) = regexp.captures_from_pos(&text, 0).unwrap() {
         for i in 0..caps.len() {
-            let cap = caps.at(i).unwrap();
+            let cap = caps.get(i).unwrap().as_str();
 
             if cap.len() == text.len() {
                 continue;

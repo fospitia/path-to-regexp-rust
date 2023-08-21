@@ -12,7 +12,7 @@ description = "Turn a path string such as `/user/:name` into a regular expressio
 license = "MIT"
 
 [dependencies]
-regex = "1.1"
-fancy-regex = "0.1"
+regex = "1.9.3"
+fancy-regex = "0.11.0"
 log = "0.4"
 pretty_env_logger = "0.3.0"
